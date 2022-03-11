@@ -1,0 +1,115 @@
+@import url(font.css);
+
+$primary-color:rgb(13, 114, 97);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+/**/
+.my-table{
+    width: 70%;
+    text-align: end;
+}
+/**/
+.contact-nav{
+    background-color: $primary-color;
+    h2{
+        color: #fff;
+        text-align: center;
+    }
+
+}
+/*nav style*/
+nav{
+    background-color: $primary-color;
+    border-start-end-radius: 25px;
+    text-align: center;
+    h1{
+        color: #fff;
+        text-align: center;
+    }
+    .collapse {
+        justify-content: flex-end;
+       
+        li{
+            padding: 10px 0;
+        }
+    }
+    .dropdown{
+        a{
+        color: #fff;
+    }
+    ul{
+        background-color: $primary-color;
+    }
+    li{
+        a:active{
+            background-color: rgb(185, 174, 174);
+        }
+    }
+    }
+    
+    .link{
+        padding: 0 30px;
+        color: #fff;
+        text-decoration: none;
+    }    
+}
+ .link{
+        padding: 0 30px;
+        color: #fff;
+        text-decoration: none;
+    }  
+/**/
+.slide-show{
+    margin-top: 20px;
+}
+/**/
+
+/*accordian cards*/
+ 
+    .card-header{
+       background-color: $primary-color;
+       border-radius: 15px;
+      a{
+           color: #fff;
+           font-size: 18px;
+       }
+       a:hover{
+           font-size: larger;
+       }
+ 
+    
+     
+       
+}
+.my-btn{
+           width: 30%;
+           background-color: $primary-color;
+           text-align: center; 
+           font-size: 25px;
+           .btn-text{
+               color: #fff;
+               font-size: 25px;
+           }
+       } 
+footer{
+    background-color: $primary-color;
+    height: 80px;
+    display: flex;
+    padding:10px 40px;
+    justify-content: space-between;
+    p{
+        color: #fff;
+    }
+    .media{
+        
+        padding: 5px 15px;
+    }
+}
